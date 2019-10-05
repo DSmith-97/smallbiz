@@ -51,7 +51,8 @@ body {
   left: 243px;
   width: 535px;
   height: 279px;
-  background: url(images/header_2.jpg) no-repeat;
+	background-color: #c3ad7c;
+  /* background: url(images/markhotwaterpressure/mhwp_logo.png) no-repeat; */
 }
 #left {
   float: left;
@@ -72,7 +73,7 @@ body {
   margin: 8px 25px 4px 25px;
   border-top: 1px solid #B8B8B8;
   border-bottom: 1px solid #B8B8B8;
-  padding: 3px;
+  padding: 2px;
   letter-spacing: 0.2em;
   font-weight: bold;
 }
@@ -197,9 +198,9 @@ body {
   margin-right: 1%;
 }
 #corp-img, #indu-img {
-  background: url(images/pic_2.jpg) no-repeat;
-  width: 112px;
-  height: 23px;
+  background: url(images/markhotwaterpressure/mark_sample1.png) no-repeat;
+  width: 248px;
+  height: 88px;
   float: left;
   margin-right: 18px;
   text-align: center;
@@ -208,7 +209,7 @@ body {
   font-weight: bold;
 }
 #indu-img {
-  background: url(images/pic_3.jpg) no-repeat;
+  background: url(images/markhotwaterpressure/mark_sample2.png) no-repeat;
 }
 #spacer {
   height: 2em;
@@ -230,4 +231,13 @@ body {
 	margin-top:0px;
 	display:block;
 	font-size:1px;
+}
+
+.logo_main {
+	margin-left: 5px;
+    padding-left: 43px;
+    padding: 6px;
+    width: 511px;
+    height: 255px;
+    padding-top: 14px;
 }
