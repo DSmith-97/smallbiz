@@ -235,11 +235,12 @@ body {
 
 .logo_main {
 	margin-left: 5px;
-    padding-left: 43px;
-    padding: 6px;
-    width: 511px;
-    height: 255px;
-    padding-top: 14px;
+	padding-left: 43px;
+	padding: 6px;
+	width: 522px;
+	height: 273px;
+	padding-top: 14px;
+	border-radius: 25px;
 }
 
 #contact_section {
@@ -280,4 +281,9 @@ body {
 	padding: 14px 15px 17px 35px;
 	height: 430px;
 	border-radius: 25px;
+}
+
+.optional {
+	font-style: italic;
+	color: #ced4d6;
 }
