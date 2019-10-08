@@ -48,7 +48,7 @@ body {
 #header {
   position: absolute;
   top: 0;
-  left: 243px;
+  left: 242px;
   width: 535px;
   height: 279px;
 	background-color: #c3ad7c;
@@ -240,4 +240,44 @@ body {
     width: 511px;
     height: 255px;
     padding-top: 14px;
+}
+
+#contact_section {
+	display: none;
+}
+
+#contact_section .form-control {
+	width: 95%;
+}
+
+.button_panel {
+	padding-right: 46px;
+	float: right;
+}
+
+.button_panel .btn {
+	width: 100px;
+}
+
+.button_panel .btn-send {
+	background-color: #E0D5B7;
+	width: 400px;
+	margin-right: -18px;
+	border: 1px solid #cdc3a9;
+}
+
+
+.button_panel .btn-light {
+	margin-right: 15px;
+	border: 1px solid grey;
+}
+
+#contact_section {
+	margin-top: -5px;
+	margin-right: 20px;
+	margin-left: -25px;
+	border: 1px solid #E0D5B7;
+	padding: 14px 15px 17px 35px;
+	height: 430px;
+	border-radius: 25px;
 }

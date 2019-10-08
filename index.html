@@ -4,9 +4,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 	<title>Minding Your Bizz</title>
 	<link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
+
 </head>
 <body>
   <div id="wrapper">
@@ -18,11 +20,13 @@
       </div>
       <div id="nav">
         <ul>
-          <li class="important"><a href="#">Home</a></li>
+          <li class="important"><a href="index.html">Home</a></li>
           <li><a href="#">Recent Showcases</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">Recommend a Biz</a></li>
-          <li><a href="#">Contact Us</a></li>
+					<li id="contact_page"><a  href="#">Contact Us</a></li>
+
+
 					<li><a href="#">&nbsp;</a></li>
         </ul>
       </div>
@@ -40,32 +44,61 @@
       </div>
     </div>
     <div id="right">
-      <h2>Mark's Hot Water Pressure Washing</h2>
-      <div id="welcome">
-        <img src="images/markhotwaterpressure/mark_main.png" width="171" height="157" alt="Pic 1" class="left" />
-				<p><strong>Mark's Hot Pressure Washing</strong> is our Minding Your Business Showcase of the month</p>
-				<p>Mark is a local small business owner in Brevard County.</p>
-				<p>He is known around Brevard and other areas for his professional pressure washing systems.</p>
-        <p class="more"><a href="#">more</a></p>
-      </div>
-      <h3>Company Profile</h3>
-      <div id="profile">
-        <div id="corp">
-          <div id="corp-img">
-            &nbsp;
-          </div>
-          <p>If you're having problems editing the template please don't hesitate to ask for help on <a href="#/forum/">the forum</a>.</p>
-        </div>
-        <div id="indu">
-          <div id="indu-img">
-            &nbsp;
-          </div>
-          <p>This is a template designed by free website templates for you for free you can replace all the text by your own   			text.</p>
-        </div>
-        <div class="clear"> </div>
-        <p class="more"><a href="#">View Details</a></p>
-      </div>
-    </div>
+			<div id="index_section">
+	      <h2>Mark's Hot Water Pressure Washing</h2>
+	      <div id="welcome">
+	        <img src="images/markhotwaterpressure/mark_main.png" width="171" height="157" alt="Pic 1" class="left" />
+					<p><strong>Mark's Hot Pressure Washing</strong> is our Minding Your Business Showcase of the month</p>
+					<p>Mark is a local small business owner in Brevard County.</p>
+					<p>He is known around Brevard and other areas for his professional pressure washing systems.</p>
+	        <p class="more"><a href="#">more</a></p>
+	      </div>
+	      <h3>Company Profile</h3>
+	      <div id="profile">
+	        <div id="corp">
+	          <div id="corp-img">
+	            &nbsp;
+	          </div>
+	          <p>If you're having problems editing the template please don't hesitate to ask for help on <a href="#/forum/">the forum</a>.</p>
+	        </div>
+	        <div id="indu">
+	          <div id="indu-img">
+	            &nbsp;
+	          </div>
+	          <p>This is a template designed by free website templates for you for free you can replace all the text by your own   			text.</p>
+	        </div>
+	        <div class="clear"> </div>
+	        <p class="more"><a href="#">View Details</a></p>
+	      </div>
+			</div>
+
+			<!--- contact_section ---->
+			<div id="contact_section">
+				<form>
+					<div class="form-group">
+						<label for="recipient-name" class="col-form-label">Name:</label>
+						<input type="text" class="form-control" id="recipient-name">
+					</div>
+						<div class="form-group">
+							<label for="recipient-number" class="col-form-label">Contact Number:</label>
+							<input type="text" class="form-control" id="recipient-number">
+						</div>
+						<div class="form-group">
+							<label for="recipient-email" class="col-form-label">Email:</label>
+							<input type="text" class="form-control" id="recipient-email">
+						</div>
+						<div class="form-group">
+							<label for="message-text" class="col-form-label">Message:</label>
+							<textarea class="form-control" id="message-text"></textarea>
+						</div>
+						<div class="button_panel center">
+							<!-- <button type="reset" class="btn btn-light">Clear</button> -->
+							<button class="btn btn-send">Send Message</button>
+						</div>
+					</form>
+			</div>
+		</div>
+
     <div class="clear"> </div>
     <div id="spacer"> </div>
     <div id="footer">
@@ -74,6 +107,29 @@
       </div>
 	  <div id="footerline"></div>
     </div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+		<script>
+			showContactPage = function() {
+				var $index = $("#index_section");
+				var $contact_section = $("#contact_section");
+
+				$index.hide();
+				$contact_section.show();
+				$(".logo_main").css("display", "none");
+			}
+
+
+			$("#contact_page").on("click", function(){
+				showContactPage();
+			});
+
+
+		</script>
+
   </div>
 </body>
 </html>
